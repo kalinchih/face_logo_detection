@@ -10,8 +10,9 @@ Currently, AWS Rekognition is very powerful for facial recognition. You can crea
 
 ## Logo (via waterfall checking):
 - Google Vision API: Can identify global corporate logos.
-- You can use the ChatGPT-4o-mini model through ChatGPT OpenAI API to compensate for Google Vision API, but there will be a 10% false positive.
+- Use the ChatGPT-4o-mini model through ChatGPT OpenAI API to compensate for Google Vision API, but there will be a 10% false positive.
 - AWS Rekognition Label and Custom Labels are ineffective and should not be considered for use.
+- Will try AWS Bedrock to replace ChatGPT OpenAI API
 
 ## Optimal QueryString configuration for this AWS Lambda API:
 - satisfiedSimilarity: 90
